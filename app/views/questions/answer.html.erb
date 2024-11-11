@@ -1,0 +1,10 @@
+  <div class="form-control">
+    <p>Your question was: <%= @user_question %></p>
+    <p><i>-You</i></p>
+  </div>
+  <div class="form-control my-2 bg-warning">
+    <p>Coach: <%= @answer %></p>
+    <p><i>-Coach</i></p>
+  </div>
+
+<%= link_to "Ask another question?", ask_path %>

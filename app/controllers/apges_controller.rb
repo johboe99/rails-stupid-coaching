@@ -1,0 +1,2 @@
+class ApgesController < ApplicationController
+end
